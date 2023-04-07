@@ -6,8 +6,8 @@ from settings.config import help_str
 from run import keep_alive
 import logging
 
-api_id = 9160473
-api_hash = '4d5af0f476be88f57433fa1efd8dcb24'
+api_id = api_id
+api_hash = 'api_hash'
 logging.basicConfig(level=logging.INFO)
 
 bot = Client("my_bot", api_id=api_id, api_hash=api_hash)
